@@ -30,26 +30,6 @@ This project is a personal website that serves as a digital portfolio. It is bui
 - **Vuex:** State management pattern and library for Vue.js applications.
 - **SCSS:** A preprocessor scripting language that is interpreted or compiled into CSS.
 
-## Project Structure
-
-car.l/
-│
-├── node_modules/ # Installed npm dependencies
-├── public/ # Static assets (index.html, images, etc.)
-├── src/ # Source files
-│ ├── components/ # Reusable Vue components
-│ ├── views/ # Views for different routes
-│ ├── App.vue # Main Vue component
-│ ├── main.js # Entry point for the application
-│ ├── router.js # Vue Router configuration
-│ └── store.js # Vuex store configuration
-│
-├── .gitignore # Specifies files and directories to be ignored by Git
-├── package.json # Project metadata and dependencies
-├── package-lock.json # Auto-generated lockfile for npm
-└── README.md # Project overview and documentation (this file)
-
-
 ## Setup and Installation
 
 ### Prerequisites
