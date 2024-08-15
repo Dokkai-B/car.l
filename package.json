@@ -1,0 +1,21 @@
+{
+  "name": "car.l",
+  "version": "1.0.0",
+  "description": "A personal portfolio/website",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8"
+  }
+}
