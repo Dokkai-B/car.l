@@ -61,17 +61,15 @@ This project is a personal website that serves as a digital portfolio. It is bui
 #### Running the Development Server
 
 To start the development server, run:
-
-    ```bash
-    npm run serve
-    ```
+```bash
+npm run serve
+```
 
 This will start the app locally, and you can view it in your browser at [http://localhost:8080](http://localhost:8080).
 
 #### Building for Production
 
 To create a production build, run:
-
-    ```bash
-    npm run build
-    ```
+```bash
+npm run build
+```
