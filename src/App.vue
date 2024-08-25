@@ -1,11 +1,9 @@
 <template>
   <div id="app">
     <section class="section">
-      <div class="intro">
         <h1 data-aos="fade-up" data-aos-duration="1000">car.l<span class="highlight">.me()</span></h1>
         <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Carl Patrick Adrian Aguas</p>
         <p class = "gray" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Full-stack Developer Intern</p>
-      </div>
     </section>
 
     <section class="section">
@@ -53,21 +51,17 @@ p {
   margin-bottom: 1rem;
 }
 .section {
-  height: 100vh;
+  min-height: 90vh;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   text-align: left;
   padding: 20px;
+  flex-direction: column;
 }
 
 .highlight {
   color: #f1bf98;
-}
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 .gray {
   color: #748CAB;
