@@ -8,12 +8,20 @@
 
     <section class="section">
       <h1 id="heading2">my.CV</h1>
-      <p id="paragraph3">Showcase your CV here...</p>
+      <p id="paragraph3">CV Link</p>
     </section>
 
     <section class="section">
-      <h1 id="heading3">Work Showcase</h1>
-      <p id="paragraph4">Highlight your work here...</p>
+      <h1 id="heading3">digital.arts<span class = "highlight">(2015 - 2024)</span></h1>
+    </section>
+
+    <section class="section">
+      <h1 id="heading4">From 2015 to 2021, I collaborated with various small to medium companies as a freelancer.</h1>
+    </section>
+
+    <section class="section">
+      <p>Throughout these years I delivered multiple</p>
+      <h1 id="heading4">digital graphics such as logo designs, product visuals, and promotional materials.</h1>
     </section>
   </div>
 </template>
@@ -60,15 +68,15 @@ body {
   word-break: normal;
   margin: 0;
   padding: 0;
-  margin-left: 25%;
-  width: 70%;
+  margin-left: 20%;
+  width: 64%;
   overflow-x: hidden;
   background-color: #191D32;
-  color: white;
+  color: #E3E2E2;
 }
 h1 {
   margin: 0;
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-bottom: 0.3rem;
 }
 p {
