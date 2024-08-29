@@ -3,8 +3,11 @@ import App from './App.vue';
 import VueScrollReveal from 'vue-scroll-reveal';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import router from './router';
 
 const app = createApp(App);
+
+app.use(router);
 
 app.use(VueScrollReveal, {
   class: 'v-scroll-reveal',
